@@ -1,0 +1,115 @@
+/*格式化系统默认*/
+body ul,p,h3 {
+    margin:0 ;
+    padding:0;
+    font-family:"幼圆";
+}
+
+a{
+    text-decoration:none;
+}
+
+#head_all{
+    width: 1280px;
+    margin: 0px auto;
+    background: white;
+}
+/*导航*/
+#nav{
+    width:1280px;
+    height: 50px;
+    border-radius:15px;
+    position: relative;
+    overflow:hidden;
+    margin:0px auto;
+}
+
+/*标题*/
+#welcome{
+    position: absolute;
+    left: 10px;
+    display: inline-block;
+    letter-spacing:5px;
+    padding: 5px;
+    font-size:20px;
+    background:#bbbbbb;
+    border-radius: 5px;
+}
+#welcome a:hover{
+    color:#24ff00;
+}
+
+#un_login{
+    font-size: 15px;
+    position: absolute;
+    right: 10px;
+    top:15px;
+}
+a:visited#un_login{
+    color: #FC1B1F;
+}
+a:link#un_login{
+    color: #FC1B1F;
+}
+
+
+/*封装列表的盒子*/
+#packList{
+    position: absolute;
+    display: inline-block;
+    margin: 0 auto;
+    height:50px;
+    left: 33%;
+    top: 0;
+}
+#leftb{
+    width: 40px;
+    height: 50px;
+    background: url(../images/background/左边导航背景.png) no-repeat;
+    float: left;
+}
+
+#packList ul{
+    height: 50px;
+    background: url(../images/background/中间导航背景.png);
+    float: left;
+    margin: 0 auto;
+}
+
+/*焦点列表初始化*/
+#packList ul li {
+    height: 50px;
+    padding:15px;
+    list-style:none;
+    float:left;
+    font-size:20px;
+    font-weight:bold;
+    letter-spacing:2px;
+}
+
+#rightb{
+    width:40px;
+    height: 50px;
+    background: url(../images/background/右边导航背景.png) no-repeat;
+    float:left;
+}
+
+
+#packList ul li a:link{
+    color:aliceblue;
+}
+
+#packList ul li a:visited{
+    color:aliceblue;
+}
+#packList ul li a:hover{
+    color:aqua;
+    border: #15D7FF solid 1px;
+    border-left: none;
+    border-right: none;
+}
+/*连接格式*/
+
+a:visited#head_all,a:link#head_all{
+color:#1225F9;
+}

@@ -1,0 +1,68 @@
+body{
+    font-family: 幼圆;
+}
+
+#all{
+    position: relative;
+    margin: 0 auto;
+    width: 1280px;
+    height: 720px;
+    background: url("../images/login/background.jpg") no-repeat ;
+}
+#login{
+    width: 450px;
+    position: absolute;
+    left: 440px;
+    top: 160px;
+    overflow: hidden;
+    background-color:rgba(255,255,255,0.7);
+    border-radius: 30px;
+}
+
+#login #navigation{
+    padding: 10px;
+    font-size:20px;
+    font-weight: bold;
+    text-align: center;
+    color: #0b5ca1;
+    background-color: rgba(255,255,255,0.84);
+}
+
+#form {
+    font-size:20px;
+    font-weight: bold;
+    margin: 10px 10px 0 10px;
+    padding: 10px;
+    line-height: 50px;
+}
+
+#form input{
+    display: inline-block;
+    width: 360px;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    height:35px;
+    margin: 5px;
+}
+input#button_login ,input#button_register{
+    font-size: 20px;
+    margin: 5px auto;
+    display: block;
+    width:300px;
+    height: 40px;
+    color: #ffffff;
+    background-color:#1cb100;
+}
+
+input#button_login:hover ,input#button_register:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+input:focus{outline:none;}
+
+#messages{
+    color: #FC1B1F;
+}

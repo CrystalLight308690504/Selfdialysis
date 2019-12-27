@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xmlns:aop="http://www.springframework.org/schema/aop"
+	   xmlns:tx="http://www.springframework.org/schema/tx"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/aop
+        https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+	<!-- 引入外部属性文件=============================== -->
+	<context:property-placeholder location="classpath:jdbc.properties"/>
+    <context:component-scan base-package="com.zx.*"/>
+    <context:annotation-config/>
+	<!-- 配置c3p0数据连接池 -->
+	<bean id = "dataSource" class = "com.mchange.v2.c3p0.ComboPooledDataSource">
+		<property name="driverClass" value="${jdbc.driverClass}"/>
+		<property name="jdbcUrl" value="${jdbc.url}"/>
+		<property name="user" value="${jdbc.username}"/>
+		<property name="password" value="${jdbc.password}"/>
+		<property name="initialPoolSize" value="10"/>
+		<property name="maxPoolSize" value="20"/>
+		<property name="testConnectionOnCheckout" value="true"/>
+		<property name="testConnectionOnCheckin" value="false"/>
+		<property name="preferredTestQuery" value="select 1"/>
+	</bean>
+
+	<!-- 配置sessionFactroy -->
+	<bean id = "sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSource"/>
+
+		<!-- 配置映射信息  -->
+		<property name="mappingResources">
+            <list>
+				<value>com/zx/entity/user.hbm.xml</value>
+				<value>com/zx/entity/topic.hbm.xml</value>
+            </list>
+        </property>
+
+		<!-- 配置hibernate信息 -->
+		 <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.show_sql">true</prop>
+                <prop key="hibernate.format_sql">true</prop>
+                <prop key="hibernate.hbm2ddl.auto">update</prop>
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+            </props>
+        </property>
+	</bean>
+
+	<!-- 配置hibernateTemplate -->
+    <bean id="hibernateTemplate" class="org.springframework.orm.hibernate5.HibernateTemplate">
+       <property name="sessionFactory" ref="sessionFactory"></property>
+   </bean>
+
+	<!-- 配置事务管理器 -->
+	<bean id = "transaction" class = "org.springframework.orm.hibernate5.HibernateTransactionManager">
+		<property name="sessionFactory" ref = "sessionFactory"></property>
+	</bean>
+	<tx:annotation-driven transaction-manager="transaction"/>
+
+    <!--增强事务-->
+  <tx:advice id = "txAdvice" transaction-manager="transaction">
+        <tx:attributes>
+            <tx:method name="save*" read-only="false" />
+            <tx:method name="update*" read-only="false" />
+            <tx:method name="delete*" read-only="false" />
+            <tx:method name="find*" read-only="true" />
+        </tx:attributes>
+    </tx:advice>
+
+    <aop:config>
+        <aop:pointcut id="t" expression="execution(* com.zx.service.*.*(..))" />
+        <aop:advisor pointcut-ref="t" advice-ref="txAdvice" />
+    </aop:config>
+
+
+
+</beans>

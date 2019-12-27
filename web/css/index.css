@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+/*格式化系统默认*/
+body ul,p,h3 {
+	margin:0 ;
+	padding:0;
+	font-family:"幼圆";
+}
+
+#all{
+    width:1280px;
+    height: auto;
+    margin:5px auto;
+}
+
+/*焦点*/
+#banner{
+    position: relative;
+    background-image: url("../images/mainPicture/banner0.jpg");
+    background-repeat: no-repeat;
+    width:1280px;
+    height:720px;
+    margin:5px auto;
+}
+
+/*焦点左边图标*/
+#banner_image_last{
+    opacity:0.2;
+    cursor: pointer;
+    position:absolute;
+    top:48%;
+    left:10px;
+}
+
+
+/*下一张图标*/
+#banner_image_next{
+    opacity:0.2;
+    cursor: pointer;
+	position:absolute;
+	top:48%;
+	right:10px;
+}
+
+/*鼠标移动到上一张和下一张图标*/
+#banner_image_next:hover,#banner_image_last:hover{
+    opacity:1;
+}
+
+
+#font{
+	font-weight:bold ;
+}
+
+#font ul li{
+	font-weight:bolder;
+	list-style-type:none;				
+}
+
+/*主体内容*/
+#content{
+	width:1280px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+/*自我介绍*/
+#introduce_self{
+    position: relative;
+	width:1280px;
+	height:250px;
+	border-style:solid none;
+	border-color:#37CFF5;
+    transition:width 2s;
+    -moz-transition:width 2s; /* Firefox 4 */
+    -webkit-transition:width 2s; /* Safari and Chrome */
+    -o-transition:width 2s; /* Opera */
+}
+
+/*图片*/
+#myself{
+	float:right;
+	margin:10px 50px 10px 10px;
+}
+#information{
+    width: 500px;
+    line-height: 20px;
+    font-size: 16px;
+    position: absolute;
+    letter-spacing: 5px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    left: 25%;
+}
+#information li{
+	font-size: 15px;
+    list-style: none;
+}
+
+/*介绍定义列表*/
+#introduce_self dl{
+	width:1000px;
+	margin:0 auto;
+	}
+
+#introduce_self dl li{
+    text-indent: 3em;
+    font-weight: bold;
+}
+/*刷街介绍*/
+#travel{
+	width:1280px;
+	height:800px;
+	margin:5px auto;
+}
+
+
+#travel_box{
+	margin:2px auto;
+	width:1000px;
+	height:800px;
+
+	}
+table{
+	margin:5px;
+	border: #000000 0px solid;
+	background-image: url(../images/background/table_back.jpg);
+}
+tr td{
+	margin:0;
+	padding:0;
+	witdh:210px;
+	height:160px;
+    opacity: 0.3;
+}
+
+tr td:hover{
+    opacity:1;
+}
+/*刷街列表中图*/
+#centerP{
+	clear:both;
+	position:relative;
+	top:50px;
+	left:100px;
+	z-index:10;
+}
+/*喜爱*/
+
+#myFavorite{
+	width:1280px;
+	height:400px;
+}
+
+/*页尾*/
+#foot{
+width:1280px;
+height:150px;
+margin:0 auto;
+background: #4D4D4D;
+position: relative;
+}
+
+#foot_copyright{
+width:600px;
+height:50px;
+line-height: 5px;
+position:absolute;
+bottom:1px;
+right:1px;
+}
+#foot_qq{
+position: relative;
+top: 2px;
+left: 100px;
+}
+
+#food_call ul li{
+list-style: none;
+float: right;
+margin-right: 10px;
+}
+#button_f{
+background-color: #0D0C0C;
+color: #F9F9F9;
+}
+
+/*连接格式*/
+
+a{	
+	text-decoration:none;
+}
+
+p a:link{
+	color: #1225F9;
+}
