@@ -7,26 +7,132 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6b5e99d-f0a4-4f29-ac6c-d8d154ab4ec8" name="默认" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/56eba151-0e8d-48c6-abe3-887d967ea22b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/56eba151-0e8d-48c6-abe3-887d967ea22b.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/struts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/jsp/center/center.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/jsp/center/center.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/css/center.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/_war_exploded/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/轮滑/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/轮滑/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/轮滑/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/轮滑/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/轮滑/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/轮滑/struts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/com/zx/entity/topic.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/com/zx/entity/user.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/lunhua.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/struts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/jsp/center/center.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/jsp/head/head.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/jsp/topicAction/addTopic.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/jsp/topicAction/allTopic.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/jsp/topicAction/editorTopic.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/jsp/topicAction/lookTopic.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/jsp/topicAction/myTopic.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/jsp/userAction/editor.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/jsp/userAction/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/css/head.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/css/honor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/css/index_login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/css/jlpark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/css/lakes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/css/sdj.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/css/skating.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/css/topic_add_topic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/css/topic_all_topic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/css/topic_look.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/css/topic_my_topics.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/css/user_editor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/css/user_register.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/font/Birds of Paradise _PERSONAL USE ONLY.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/font/幼圆.TTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/font/美玉体.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/background/S80617-11175709.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/background/backgroun_top_part.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/background/background_foot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/background/banner_last.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/background/banner_next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/background/center_navation_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/background/content_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/background/hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/background/left_navigation_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/background/psb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/background/qqlogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/background/right_navigation_backgroud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/background/sent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/background/table_back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/background/中间导航背景.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/background/内容背景图.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/background/右边导航背景.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/background/左边导航背景.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/background/背景图food.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/background/背景图上半部分.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/dwys/-23a37d821e63b755.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/dwys/-40c714547fc64f0b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/dwys/-49026d423d7d25b0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/dwys/1c34ff1c99047109.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/dwys/63ec666a47b439e5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/dwys/7df08e9b29e43362.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/editor/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/julong/jfikdjfkd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/julong/kdjkd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/julong/lushang.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/julong/yibai.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/lakes/ff.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/lakes/null-3f746c690434e364.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/lakes/null6081eb7bcbbbbfa3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/lakes/psb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/lakes/ss.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/login/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/mainPicture/banner0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/mainPicture/banner0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/mainPicture/banner1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/mainPicture/banner2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/mainPicture/banner3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/register/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/shengdan/head.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/shengdan/lushang.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/shengdan/shengdan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/shetuan/-5a0d59b5ac8f60fa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/shetuan/-62a02621d4fa6a8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/shetuan/14f5ece7bbe3f366.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/shetuan/1528865599398.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/shetuan/sjkslkf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/topic/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/travelPicture/duanwu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/travelPicture/julong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/travelPicture/shengdan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/travelPicture/xihua.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/travelPicture/yexihu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/社团/-5a0d59b5ac8f60fa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/社团/-62a02621d4fa6a8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/社团/14f5ece7bbe3f366.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/社团/1528865599398.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/images/社团/QQ图片20180617135248.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/script/allFuntions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/script/center.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/script/head.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/script/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/script/jquery-3.4.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/script/topic_topics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/script/user_editor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/script/user_register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/subhtml/jlpark.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/subhtml/lakes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/subhtml/sdj.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/subhtml/zero_skating.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/轮滑/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/轮滑/com/zx/entity/topic.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/轮滑/com/zx/entity/user.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/轮滑/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/轮滑/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/轮滑/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/轮滑/lunhua.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/轮滑/struts.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/struts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/center/center.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/center/center.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/center.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/user_register.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/user_register.css" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,312 +174,6 @@
       </path>
     </expand>
     <select />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-123717524">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="10" />
-          <entry key="project.open.time.143" value="1" />
-          <entry key="project.open.time.160" value="1" />
-          <entry key="project.open.time.42" value="1" />
-          <entry key="project.open.time.43" value="1" />
-          <entry key="project.open.time.44" value="1" />
-          <entry key="project.open.time.46" value="1" />
-          <entry key="project.open.time.49" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.91" value="1" />
-          <entry key="project.open.time.96" value="1" />
-          <entry key="project.opened" value="10" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="12" />
-          <entry key="css" value="41" />
-          <entry key="fxml" value="1" />
-          <entry key="html" value="3" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="119" />
-          <entry key="jpeg" value="1" />
-          <entry key="js" value="33" />
-          <entry key="jsp" value="55" />
-          <entry key="png" value="2" />
-          <entry key="properties" value="6" />
-          <entry key="rnc" value="3" />
-          <entry key="sql" value="1" />
-          <entry key="tb_user" value="3" />
-          <entry key="ts" value="2" />
-          <entry key="xml" value="34" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="12" />
-          <entry key="CSS" value="41" />
-          <entry key="Database Element" value="3" />
-          <entry key="HTML" value="3" />
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="Image" value="3" />
-          <entry key="JAVA" value="119" />
-          <entry key="JSP" value="55" />
-          <entry key="JavaScript" value="33" />
-          <entry key="Properties" value="6" />
-          <entry key="RNG Compact" value="3" />
-          <entry key="Scratch" value="1" />
-          <entry key="TypeScript" value="2" />
-          <entry key="XML" value="35" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="cell" value="6" />
-          <entry key="css" value="1152" />
-          <entry key="dummy" value="52" />
-          <entry key="fxml" value="15" />
-          <entry key="html" value="61" />
-          <entry key="java" value="2618" />
-          <entry key="js" value="535" />
-          <entry key="jsp" value="2593" />
-          <entry key="properties" value="11" />
-          <entry key="txt" value="17" />
-          <entry key="xml" value="270" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="1152" />
-          <entry key="HTML" value="61" />
-          <entry key="JAVA" value="2618" />
-          <entry key="JSP" value="2593" />
-          <entry key="JavaScript" value="535" />
-          <entry key="PLAIN_TEXT" value="69" />
-          <entry key="Properties" value="11" />
-          <entry key="Scratch" value="6" />
-          <entry key="XML" value="285" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.spring.core.usages.trigger">
-        <counts>
-          <entry key="fixes.SpringFacetInspection.AddFacetFix" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-2120209256">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.31" value="1" />
-          <entry key="project.open.time.32" value="1" />
-          <entry key="project.open.time.64" value="1" />
-          <entry key="project.open.time.68" value="1" />
-          <entry key="project.open.time.76" value="1" />
-          <entry key="project.opened" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="css" value="950" />
-          <entry key="dummy" value="20" />
-          <entry key="html" value="1" />
-          <entry key="java" value="1386" />
-          <entry key="js" value="8" />
-          <entry key="jsp" value="1030" />
-          <entry key="txt" value="54" />
-          <entry key="xml" value="38" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="950" />
-          <entry key="HTML" value="1" />
-          <entry key="JAVA" value="1386" />
-          <entry key="JSP" value="1030" />
-          <entry key="JavaScript" value="8" />
-          <entry key="PLAIN_TEXT" value="74" />
-          <entry key="XML" value="38" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="css" value="60" />
-          <entry key="html" value="3" />
-          <entry key="java" value="114" />
-          <entry key="jpeg" value="2" />
-          <entry key="jpg" value="20" />
-          <entry key="js" value="10" />
-          <entry key="jsp" value="106" />
-          <entry key="png" value="13" />
-          <entry key="xml" value="18" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSS" value="60" />
-          <entry key="HTML" value="3" />
-          <entry key="Image" value="35" />
-          <entry key="JAVA" value="114" />
-          <entry key="JSP" value="106" />
-          <entry key="JavaScript" value="10" />
-          <entry key="XML" value="18" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-290570212">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="14" />
-          <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.24" value="2" />
-          <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.30" value="1" />
-          <entry key="project.open.time.31" value="1" />
-          <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.66" value="1" />
-          <entry key="project.open.time.74" value="1" />
-          <entry key="project.open.time.77" value="1" />
-          <entry key="project.open.time.78" value="1" />
-          <entry key="project.open.time.79" value="1" />
-          <entry key="project.opened" value="14" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="2" />
-          <entry key="css" value="21" />
-          <entry key="html" value="1" />
-          <entry key="java" value="31" />
-          <entry key="js" value="11" />
-          <entry key="jsp" value="33" />
-          <entry key="png" value="4" />
-          <entry key="properties" value="3" />
-          <entry key="xml" value="12" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="CSS" value="21" />
-          <entry key="HTML" value="1" />
-          <entry key="Image" value="4" />
-          <entry key="JAVA" value="31" />
-          <entry key="JSP" value="33" />
-          <entry key="JavaScript" value="11" />
-          <entry key="Properties" value="3" />
-          <entry key="XML" value="12" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="css" value="32" />
-          <entry key="java" value="433" />
-          <entry key="js" value="27" />
-          <entry key="jsp" value="281" />
-          <entry key="properties" value="28" />
-          <entry key="txt" value="19" />
-          <entry key="xml" value="20" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="32" />
-          <entry key="JAVA" value="433" />
-          <entry key="JSP" value="281" />
-          <entry key="JavaScript" value="27" />
-          <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Properties" value="28" />
-          <entry key="XML" value="20" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/center/center.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/userAction/register.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/css/user_register.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jdbc.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/struts.xml">
-          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/script/center.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -485,6 +285,7 @@
     <option name="width" value="1346" />
     <option name="height" value="745" />
   </component>
+  <component name="ProjectId" id="2MGB2zVrTu2SPCLWyBk6bVO6zMk" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -608,72 +409,51 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="Downloaded.Files.Path.Enabled" value="true" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574229225458" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="test.Test" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="database.console.LAST_STATE" value="true" />
-    <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../轮滑记录" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Workplaces/IdeaWorkplace/Selfdialysis&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;1699151952a423bb76bd489d104f2d49&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="test" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workplaces\IdeaWorkplace\Selfdialysis" />
+      <recent name="D:\Workplaces\IdeaWorkplace\Selfdialysis\web\WEB-INF" />
+      <recent name="D:\IDEA\workspace\LunHuaJiLu\web\css" />
+      <recent name="D:\IDEA\workspace\LunHuaJiLu\web\images" />
+      <recent name="D:\IDEA\workspace\LunHuaJiLu\web\images\background" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workplaces\IdeaWorkplace\Selfdialysis\web\WEB-INF" />
       <recent name="D:\IDEA\workspace\轮滑\web\WEB-INF\jsp\center" />
       <recent name="D:\IDEA\workspace\轮滑\web\WEB-INF\jsp\topicAction" />
       <recent name="D:\IDEA\workspace\轮滑\web" />
       <recent name="D:\IDEA\workspace\轮滑\web\WEB-INF" />
-      <recent name="D:\IntelliJ IDEA 2018.2.4\workspace\轮滑\web\images\topic" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="test.Test" />
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.zx.service.serviceImpl" />
       <recent name="com.zx.service" />
       <recent name="com.zx.dao" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="test.Test" />
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IDEA\workspace\LunHuaJiLu\web\css" />
-      <recent name="D:\IDEA\workspace\LunHuaJiLu\web\images" />
-      <recent name="D:\IDEA\workspace\LunHuaJiLu\web\images\background" />
-      <recent name="D:\IDEA\workspace\LunHuaJiLu\web\script" />
-      <recent name="D:\IDEA\workspace\LunHuaJiLu\web\subhtml" />
-    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Tomcat Server.tomcat9">
+  <component name="RunManager" selected="Tomcat 服务器.tomcat9">
     <configuration name="Test.main" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="轮滑" />
       <extension name="coverage">
@@ -705,11 +485,16 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="未命名_轮滑" />
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="52101" />
       </RunnerSettings>
@@ -729,6 +514,21 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
           <option name="USE_DEFAULT" value="true" />
@@ -766,9 +566,10 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Test.main" />
-      <item itemvalue="Tomcat Server.tomcat9" />
+      <item itemvalue="Tomcat 服务器.tomcat9" />
     </list>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -809,6 +610,8 @@
       <workItem from="1574154384550" duration="1277000" />
       <workItem from="1574228784190" duration="422000" />
       <workItem from="1574229319909" duration="310000" />
+      <workItem from="1677383837155" duration="649000" />
+      <workItem from="1677384497596" duration="316000" />
     </task>
     <task id="LOCAL-00001" summary="用户模块bug修复">
       <created>1560264284347</created>
@@ -968,10 +771,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="用户模块bug修复" />
