@@ -16,7 +16,7 @@
             <input id="passwordAgain" name="passwordAgain" type="password" maxlength="14" placeholder="请再输入一次密码..." value="${password}" /><span
                 id="password_message_again"></span><br/>
             <div id="gender">
-                <input name="gender" type="radio" value="男" checked="true">男
+                <input name="gender" type="radio" value="男" >男
                 <input name="gender" type="radio" value="女">女
             </div>
             <input id="button_register" type="submit" value="确认注册" disabled = "true" onclick="window.confirm('确认注册?')"/>
